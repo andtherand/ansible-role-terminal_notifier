@@ -1,5 +1,4 @@
 ---
-
-terminal_notifier_title: 'Ansible run finished'
-terminal_notifier_msg: 'No errors were encountered! Pat your self on the back and go get some coffee!'
+terminal_notifier_msg: "No errors were encountered! Pat your self on the back and go get some coffee!"
 terminal_notifier_sound: default
+terminal_notifier_title: "Ansible run finished"
