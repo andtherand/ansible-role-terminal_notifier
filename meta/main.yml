@@ -1,0 +1,18 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: mychiara
+  company: mychiara
+  description: >
+    Calls terminal-notifier - ignores failures
+  license:             GPLv2
+  min_ansible_version: 1.9.0
+  platforms:
+    - name: osx
+      versions:
+        - 10.11
+  categories:
+    - development
+
