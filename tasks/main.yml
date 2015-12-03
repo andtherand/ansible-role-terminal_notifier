@@ -2,9 +2,9 @@
 # tasks file for terminal-notifier
 
 - name: terminal-notifier-run-finished
-  ignore_errors: true
   local_action: >
     command terminal-notifier -sound {{ terminal_notifier_sound }} -title '{{ terminal_notifier_title }}' -message '{{ terminal_notifier_msg }}'
+  ignore_errors: true
   tags:
     - awareness
     - notification
