@@ -6,7 +6,6 @@ galaxy_info:
     - development
   company: mychiara
   description: >
-    Calls the terminal-notifier command to create awareness
+    Awareness and notification
   license: "license (GPLv2)"
   min_ansible_version: 1.2
-
