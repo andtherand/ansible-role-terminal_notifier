@@ -10,6 +10,6 @@ galaxy_info:
   license: "license (GPLv2)"
   min_ansible_version: 1.2
   platforms:
-    - name: OSX
+    - name: Ubuntu
       versions:
-        - '10.11'
+        - trusty
