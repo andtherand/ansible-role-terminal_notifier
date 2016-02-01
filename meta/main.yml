@@ -2,10 +2,12 @@
 dependencies: []
 galaxy_info:
   author: "Andy Ruck"
-  categories:
+  galaxy_tags:
     - development
   company: mychiara
   description: >
     Awareness and notification
   license: "license (GPLv2)"
   min_ansible_version: 1.2
+  platforms:
+    - OSX
