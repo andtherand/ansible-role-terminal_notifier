@@ -1,11 +1,16 @@
 # Ansible terminal-notifier role
 
 Uses the [terminal-notifier command line tool](https://github.com/julienXX/terminal-notifier) to raise awareness that a playbook has finished.
+It's always invoked on the localhost. 
 
 ## Requirements
 
 - OSX 10.9 and above
 - the terminal notifier mentioned above
+
+# WARNING!
+This does not work on Ubuntu Trusty or any other platform except from OSX.
+But I had to add a platform to the meta section otherwise it would not be accepted as a valid role.
 
 ## Role variables
 
@@ -15,6 +20,9 @@ terminal_notifier_msg: "No errors were encountered! Pat your self on the back an
 terminal_notifier_sound: default
 terminal_notifier_title: "Ansible run finished"
 ```
+## TODO
+- Add ability to shout at you when the plays failed!
+
 ## Contributing
 
 In lieu of a formal styleguide, take care to maintain the existing coding style. Would be create if you added unit tests, that's on my todo list aswell :]
